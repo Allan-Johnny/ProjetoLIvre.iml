@@ -9,14 +9,15 @@
 
 <AnchorPane prefHeight="295.0" prefWidth="213.0" style="-fx-background-color: #FFFF; -fx-border-radius: 7;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoginController">
    <children>
-      <TextField fx:id="txuser" layoutX="35.0" layoutY="115.0" promptText="Usuario" style="-fx-border-color: #000000; -fx-border-width: 1;" />
-      <Button layoutX="59.0" layoutY="197.0" mnemonicParsing="false" onAction="#btLogin" prefHeight="25.0" prefWidth="100.0" style="-fx-border-color: #000000;" text="Login" />
-      <Button layoutX="59.0" layoutY="231.0" mnemonicParsing="false" onAction="#btCriar" prefHeight="25.0" prefWidth="100.0" style="-fx-border-color: #000000;" text="Criar" />
-      <ImageView fitHeight="86.0" fitWidth="85.0" layoutX="64.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <TextField fx:id="txuser" layoutX="35.0" layoutY="104.0" promptText="Usuario" style="-fx-border-color: #000000; -fx-border-width: 1;" />
+      <Button layoutX="59.0" layoutY="186.0" mnemonicParsing="false" onAction="#btLogin" prefHeight="25.0" prefWidth="100.0" style="-fx-border-color: #000000;" text="Login" />
+      <Button layoutX="59.0" layoutY="220.0" mnemonicParsing="false" onAction="#btCriar" prefHeight="25.0" prefWidth="100.0" style="-fx-border-color: #000000;" text="Criar" />
+      <ImageView fitHeight="86.0" fitWidth="85.0" layoutX="68.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Image/Logo.png" />
          </image>
       </ImageView>
-      <PasswordField fx:id="txsenha" layoutX="35.0" layoutY="154.0" prefHeight="25.0" prefWidth="151.0" promptText="Senha" style="-fx-border-color: black;" />
+      <PasswordField fx:id="txsenha" layoutX="35.0" layoutY="143.0" prefHeight="25.0" prefWidth="151.0" promptText="Senha" style="-fx-border-color: black;" />
+      <Button layoutX="59.0" layoutY="254.0" mnemonicParsing="false" onAction="#btSair" prefHeight="25.0" prefWidth="100.0" style="-fx-border-color: #000000;" text="Sair" />
    </children>
 </AnchorPane>

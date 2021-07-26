@@ -35,7 +35,10 @@ public class LoginController {
         stage.show();
 
     }
+    public void btSair(ActionEvent event) throws IOException {
+        ((Node)(event.getSource())).getScene().getWindow().hide();
 
+    }
 }
 
 

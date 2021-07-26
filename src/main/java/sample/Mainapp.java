@@ -8,7 +8,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
-public class Mainapp extends Application {
+public class    Mainapp extends Application {
 
 
     @Override
