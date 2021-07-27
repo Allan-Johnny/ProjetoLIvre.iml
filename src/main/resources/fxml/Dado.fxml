@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: BLACK;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DadoController">
+   <children>
+      <JFXButton fx:id="btRolar" layoutX="70.0" layoutY="315.0" onAction="#btRolar" prefHeight="44.0" prefWidth="460.0" style="-fx-background-color: GREY;" text="Rolar">
+         <font>
+            <Font name="Garamond" size="28.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="283.0" fitWidth="253.0" layoutX="177.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/dado20.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="resultadodado" layoutX="257.0" layoutY="90.0" prefHeight="107.0" prefWidth="97.0">
+         <font>
+            <Font size="73.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

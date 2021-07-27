@@ -1,5 +1,6 @@
 package sample;
 
+
 import com.sun.security.auth.NTSidPrimaryGroupPrincipal;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -15,7 +16,7 @@ public class    Mainapp extends Application {
     public void start(Stage primaryStage) throws Exception{
         Stage stage = primaryStage;
 
-        Parent fxmlMain = FXMLLoader.load(getClass().getResource("/fxml/Login.fxml"));
+        Parent fxmlMain = FXMLLoader.load(getClass().getResource("/fxml/Dado.fxml"));
         Scene mainScene = new Scene(fxmlMain);
         primaryStage.setScene(mainScene);
         primaryStage.setTitle("20 Dice");
@@ -23,7 +24,6 @@ public class    Mainapp extends Application {
         primaryStage.show();
 
     }
-
 
     public static void main(String[] args) throws ClassNotFoundException {
         launch(args);

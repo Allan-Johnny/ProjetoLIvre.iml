@@ -16,11 +16,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ProjetoFXML" />
+        <module name="ProjetoDado" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ProjetoFXML" target="11" />
+      <module name="ProjetoDado" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

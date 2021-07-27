@@ -3,7 +3,7 @@
     <output-path>$PROJECT_DIR$/out/artifacts/ProjetoFXML</output-path>
     <root id="root">
       <element id="archive" name="ProjetoFXML.jar">
-        <element id="module-output" name="ProjetoFXML" />
+        <element id="module-output" name="ProjetoDado" />
       </element>
     </root>
   </artifact>
