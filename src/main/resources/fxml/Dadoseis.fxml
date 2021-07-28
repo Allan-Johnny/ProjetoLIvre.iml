@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DadoseisController">
+   <children>
+      <ImageView fitHeight="283.0" fitWidth="253.0" layoutX="174.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/8.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="btRolar" layoutX="70.0" layoutY="319.0" onAction="#btRolar" prefHeight="44.0" prefWidth="460.0" style="-fx-border-color: black;" text="Rolar">
+         <font>
+            <Font name="Garamond" size="28.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="resultadodado" layoutX="280.0" layoutY="94.0" prefHeight="107.0" prefWidth="41.0" textFill="WHITE">
+         <font>
+            <Font size="73.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="484.0" layoutY="21.0" onAction="#btsair" prefHeight="54.0" prefWidth="92.0" style="-fx-border-color: black;" text="Sair">
+         <font>
+            <Font name="Garamond" size="28.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

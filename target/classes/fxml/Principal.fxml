@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PrincipalController">
+   <children>
+      <JFXButton layoutX="40.0" layoutY="251.0" onAction="#btD6" prefHeight="54.0" prefWidth="342.0" style="-fx-border-color: black;" text="Dado de 6 lados">
+         <font>
+            <Font name="Garamond" size="28.0" />
+         </font></JFXButton>
+      <JFXButton layoutX="40.0" layoutY="75.0" onAction="#btD20" prefHeight="54.0" prefWidth="342.0" style="-fx-border-color: black;" text="Dado de 20 lados">
+         <font>
+            <Font name="Garamond" size="28.0" />
+         </font></JFXButton>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="412.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/8.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="422.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/dado20.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="40.0" layoutY="321.0" onAction="#btsair" prefHeight="44.0" prefWidth="92.0" style="-fx-border-color: black;" text="Sair">
+         <font>
+            <Font name="Garamond" size="28.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
